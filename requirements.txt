@@ -5,3 +5,4 @@ langgraph-cli
 langgraph-api
 fastapi
 uvicorn
+langchain-openai
