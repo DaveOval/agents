@@ -1,12 +1,9 @@
 {
-    "dependencies": [
-        "langchain-openai",
-        "python-dotenv",
-        "langgraph-cli",
-        "langgraph"
-    ],
+    "dependencies": ["."],
     "graphs": {
-        "davidbot" : "./app/agent.py:graph"
+        "davidbot" : "./app/agent.py:graph",
+        "llm" : "./app/llm.py:graph"
     },
-    "python_version": "3.11"
+    "python_version": "3.11",
+    "env": ".env"
 }
